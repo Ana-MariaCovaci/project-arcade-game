@@ -105,10 +105,10 @@ function randomSpawn() {
 
 // Array containing the enemy objects
 const allEnemies = [
-    new Enemy(-200, 60),
-    new Enemy(-150, 130),
-    new Enemy(-300, 210),
-    new Enemy(-100, 130)
+    new Enemy(randomSpawn(), 60),
+    new Enemy(randomSpawn(), 130),
+    new Enemy(randomSpawn(), 210),
+    new Enemy(randomSpawn(), 130)
 ];
 
 // Player object
